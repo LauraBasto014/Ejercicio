@@ -1,0 +1,69 @@
+* { 
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+header{
+	height:200px;
+	width:100%;
+	background-color: #000;
+}
+footer{
+	height:200px;
+	width:100%;
+	background-color: #000;
+}
+div{
+	width: 23%;
+	display:inline-block;
+}
+h1{
+	text-align: center;
+	color: #fff;
+}
+h2{
+	text-align: center;
+}
+section{
+	display: flex;
+	flex-wrap: wrap;
+}
+article{
+	width: 25%;
+	height: 200px;
+	display:inline-block;
+
+}
+.art1{
+	background-color: #15FBD8; 
+}
+.art2{
+	background-color: #156FFB; 
+}
+.art3{
+	background-color: #A415FB; 
+}
+.art4{
+	background-color: #FB15A0; 
+}
+p{
+	text-align: center;
+	color: #fff;
+}
+
+
+/* Uso de media Querynns */
+@media screen and (min-width: 600px) and (max-width: 1024px){
+article{
+	width: 50%;
+}
+div{width: 50%;}
+}
+@media screen and (max-width: 599px){
+article{
+	width: 100%;
+}
+div{
+	width: 100%;
+}
+}
